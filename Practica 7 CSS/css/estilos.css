@@ -4,3 +4,43 @@ body{
     padding: 0;
     background-color: #f0f215;
 }
+
+/*1. Comportamiento static (por defecto)*/
+
+.reproductor{
+    width: 300px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/*2. El padre relativo*/
+.album-art{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.album-art img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*3. Posicionamiento absolute*/
+.badge-vivo{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff0000;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/*Solo falta 4, 5 y final*/
